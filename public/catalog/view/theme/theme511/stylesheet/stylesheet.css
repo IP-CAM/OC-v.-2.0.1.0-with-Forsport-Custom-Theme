@@ -166,8 +166,9 @@ div.required .control-label:before {
 }
 /* logo */
 #logo {
-	margin:20px 0 20px;
+  margin: 8px 0 30px;
 	float:left;
+  max-width: 240px;
 }
 /* phone  */
 .phone {
@@ -1524,8 +1525,10 @@ div.bootstrap-datetimepicker-widget td {
 
 /*****************  header   *******************/
 header{
-	margin-top:14px;
 	line-height:0;
+	max-height: 100px;
+  background: url('/image/bg.jpg');
+  padding-top: 5px;
 }
 header .button-top{
 	float:right;

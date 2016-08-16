@@ -1,6 +1,12 @@
-<div style="width: 1000px; text-align: center; margin: auto; padding-top: 30px;">
-	<div style="float: left; text-transform: uppercase;">Formas de pagamento:</div><br>
-	<img src="/image/pagseguro-line.png" style="width: 100%;" width="100%">
+<div class="container" style="padding-top: 30px;">
+	<div style="width: 795px; float: left;">
+		<div style="float: left; text-transform: uppercase;">Formas de pagamento:</div><br>
+		<img src="/image/pagseguro-line-2.png" style="width: 100%; margin-top: 5px;" width="100%">
+	</div>
+	<div style="width: 370px; padding-left: 30px; float: left;">
+		<div style="float: left; text-transform: uppercase;">Siga-nos:</div><br>
+		<div class="fb-page" data-href="https://www.facebook.com/lojavirtual.digital/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/lojavirtual.digital/"><a href="https://www.facebook.com/lojavirtual.digital/">LojaVirtual .digital</a></blockquote></div></div>
+	</div>
 </div>
 
 <footer>
@@ -68,7 +74,7 @@
 						<a href="http://www.correios.com.br/" target="_blank">
 							<img src="/image/correios.png" alt="Correios"  height="26" style="border: 0px; height: 26px;">
 						</a>
-						
+
   					</div>
   	</div>
 
@@ -76,6 +82,8 @@
 
 
 </div>
+
+<div style="background: url('/image/tijolo.png'); background-repeat: no-repeat; height: 14px;">&nbsp;</div>
 
 <script src="https://lojavirtual.digital/lojavirtualfooter.js" type="text/javascript"></script>
 

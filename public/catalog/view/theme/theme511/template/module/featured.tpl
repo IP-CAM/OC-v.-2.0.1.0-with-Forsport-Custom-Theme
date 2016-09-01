@@ -103,7 +103,7 @@
 				<?php } else { ?>
 				<span class="price-new"><?php echo $product['special']; ?></span> <span class="price-old"><?php echo $product['price']; ?></span>
 				<?php } ?>
-				<?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme511/parcelamento.php'; ?>				
+				<?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme511/parcelamento.php'; ?>
 				<?php if ($product['tax']) { ?>
 				<span class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
 				<?php } ?>

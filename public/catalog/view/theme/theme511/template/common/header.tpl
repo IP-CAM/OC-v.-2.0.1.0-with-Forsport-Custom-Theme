@@ -17,9 +17,10 @@
 <meta name="keywords" content= "<?php echo $keywords; ?>" />
 <?php } ?>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<?php if ($icon) { ?>
-<link href="<?php echo $icon; ?>" rel="icon" />
-<?php } ?>
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+
 <?php foreach ($links as $link) { ?>
 <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
 <?php } ?>
@@ -160,11 +161,12 @@
 			</span>
 			<div class="clear"></div>
 			<?php echo $search; ?>
-			<ul class="soc-icon">
+      <div>Atendimento: (11) 3887-9928</div>
+			<?php /* <ul class="soc-icon">
 				<li><a href="//www.facebook.com/"><i class="fa fa-facebook-square"></i></a></li>
 				<li><a href="//www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
 				<li><a href="//www.pinterest.com/"><i class="fa fa-pinterest"></i></a></li>
-			</ul>
+			</ul> */ ?>
 		</div>
 		</div>
 

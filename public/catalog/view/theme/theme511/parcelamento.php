@@ -18,7 +18,7 @@
   1 = Tabela Price (PagSeguro e outros)
 */
 
-$qtd_parcelas = 12;
+$qtd_parcelas = 10;
 $juros = 0;
 $moeda_da_loja = 'R$ ';
 $tipo_de_calculo = 0;

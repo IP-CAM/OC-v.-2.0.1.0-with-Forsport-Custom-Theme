@@ -168,7 +168,7 @@ div.required .control-label:before {
 #logo {
   margin: 8px 0 30px;
 	float:left;
-  max-width: 240px;
+  max-width: 175px;
 }
 /* phone  */
 .phone {
@@ -200,7 +200,7 @@ ul.soc-icon li a {
 	font-size:18px;
 	line-height:37px;
 	text-align:center;
-	background:#3eb6de;
+	background:#f68827;
 	width:37px;
 	height:37px;
 }
@@ -224,20 +224,20 @@ ul.soc-icon li i {
 	color:#3eb6de;
 }
 #search button {
-	float:left;
-	border:1px solid #bcbcbc;
-	border-left:none;
-	background:none;
-	padding:0 15px;
-	line-height:37px;
-	height:37px;
+	float: left;
+	border: 1px solid #f68827;
+	border-left: none;
+	padding: 0 15px;
+	line-height: 37px;
+	height: 37px;
+	background: #f68827;
 }
 #search button i {
 	display:block;
 	vertical-align:top;
 	line-height:20px;
 	font-size:11px;
-	color:#a5a5a6;
+	color:#FFF;
 }
 #search input {
 	float:left;
@@ -546,10 +546,12 @@ input#input-coupon {
 }
 /* footer */
 .common-home footer {
-	margin-top:54px;
+  padding-top: 50px;
+  min-height: 300px;
 }
 footer {
 	margin-top: 30px;
+	background: #f8f9f3;
 }
 footer .col-sm-3 li  {
 	padding:2px 0;
@@ -557,11 +559,11 @@ footer .col-sm-3 li  {
 footer li a {
 	font-size:12px;
 	line-height:14px;
-	color:#a5a8aa;
+	color:#333;
 	text-transform:uppercase;
 }
 footer li a:visited {
-	color:#a5a8aa;
+	color:#333;
 }
 footer li a:hover,
 footer li a:focus,
@@ -705,7 +707,7 @@ ul.breadcrumb li{
 	padding:8px 12px
 }
 .btn.btn-icon {
-	background-color:#3eb6de;
+	background-color:#555;
 	color:#fff;
 }
 .btn.btn-icon:hover {
@@ -721,7 +723,7 @@ ul.breadcrumb li{
 	width:42px;
 	line-height:43px;
 	height:43px;
-	background:#333;
+	background:#3eb6de;
 	text-align:center;
 	vertical-align:top;
 }
@@ -1098,7 +1100,7 @@ aside .box {
 	color:#fff;
 	margin:0 0 30px;
 	padding:14px 20px 16px;
-	background:#3eb6de;
+	background:#f68827;
 }
 aside .box h3 {
 	font-size:25px;
@@ -1534,28 +1536,32 @@ header .button-top{
 	float:right;
 	display:inline-block;
 	font-size:10px;
+	font-weight: bold;
 	line-height:10px;
 	text-transform:uppercase;
-	color:#5b5e60;
+	color:#3eb6de;
 	margin:8px 0 10px 10px;
 }
 header .button-top a{
 	display:inline-block;
-	color:#5b5e60;
-	font-weight:300;
+	color:#3eb6de;
+	font-weight: bold;
+  font-size: 11px;
 }
 header .button-top a:visited {
-	color:#5b5e60;
+	color:#3eb6de;
 }
 header .button-top a:hover,
 header .button-top a:active,
 header .button-top a:focus {
-	color:#3eb6de;
+	color:#FFF;
 }
 header .button-top a:first-child{
 	padding-right:8px;
-	border-right:1px solid #5b5e60;
+	border-right:1px solid #3eb6de;
 	margin-right:7px;
+	font-weight: bold;
+  font-size: 11px;
 }
 header .box-right{
 	float:right;
@@ -2881,7 +2887,7 @@ div.camera_caption {
 }
 div.camera_caption > div > div {
     max-width: 410px;
-	background:#3eb6de;
+	background:#555;
 	padding:25px 20px 27px 24px ;
 }
 div.camera_caption h1 {

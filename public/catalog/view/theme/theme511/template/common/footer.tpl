@@ -83,8 +83,6 @@
 
 </div>
 
-<div style="background: url('/image/tijolo.png'); background-repeat: no-repeat; height: 14px;">&nbsp;</div>
-
 <script src="https://lojavirtual.digital/lojavirtualfooter.js" type="text/javascript"></script>
 
 </body></html>

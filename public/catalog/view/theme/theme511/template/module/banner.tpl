@@ -1,3 +1,4 @@
+<div class="box featured"><div class="box-heading"><h3>Veja também</h3></div></div>
 <div id="banner<?php echo $module; ?>" class="banners row">
 	<?php foreach ($banners as $banner) { ?>
 	<?php if ($banner['link']) { ?>

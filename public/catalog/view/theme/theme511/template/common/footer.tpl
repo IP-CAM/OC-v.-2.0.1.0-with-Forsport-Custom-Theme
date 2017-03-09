@@ -1,16 +1,9 @@
-<div class="container" style="padding-top: 30px;">
-	<div style="width: 795px; float: left;">
-		<div style="float: left; text-transform: uppercase;">Formas de pagamento:</div><br>
-		<img src="/image/pagseguro-line-2.png" style="width: 100%; margin-top: 5px;" width="100%">
-	</div>
-	<div style="width: 370px; padding-left: 30px; float: left;">
-		<div style="float: left; text-transform: uppercase;">Siga-nos:</div><br>
-		<div class="fb-page" data-href="https://www.facebook.com/lojavirtual.digital/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/lojavirtual.digital/"><a href="https://www.facebook.com/lojavirtual.digital/">LojaVirtual .digital</a></blockquote></div></div>
-	</div>
-</div>
 
 <footer>
   <div class="container">
+  	<div class="footerlogo">
+  		<img src="/image/catalog/logo/forsportlogo4.png">
+	</div>
 	<div class="row">
 		<div class="col-sm-3">
 			<?php if ($informations) { ?>
@@ -57,26 +50,19 @@
 			</div>
 		</div>
 	</div>
+	<div class="row" style="border-top: solid 1px #EEE; font-size: 12px; padding-top: 10px; padding-bottom: 15px;">
+		<div class="col-sm-6">
+			Formas de pagamento:
+			<img src="/image/catalog/pagseguro.png">
+		</div>
+		<div class="col-sm-6" style="text-align: right; font-size: 12px; margin-top: 15px;">
+			For Sport Artigos Esportivos Ltda<br>
+			CNPJ: 00.029.815/0001-01<br>
+			R. Viêira Maciel, 19 - Jardim Paulista, São Paulo - SP, 04503-040<br>
+			<span style="font-size: 22px;"><i class="fa fa-phone" aria-hidden="true" style="font-size: 22px;"></i> (11) 3078-5052</span>
+		</div>
+	</div>
   </div>
-
-
-  <div class="copyright" style="margin-left: 15px; margin-right: 15px; margin: auto; width: 1170px;">
-  				<div style="width: 60%; padding-top: 25px; float: left; padding-bottom: 40px;">
-  					<?php echo $powered; ?><!-- [[%FOOTER_LINK]] -->
-  				</div>
-
-  				<div style="width: 40%; float: left; padding-top: 20px; text-align: right;">
-
-  					<a href="http://pagseguro.uol.com.br" target="_blank">
-  						<img src="/image/pagseguro.png" alt="PagSeguro" height="26" style="border: 0px; margin-right: 20px; height: 26px;">
-  					</a>
-
-						<a href="http://www.correios.com.br/" target="_blank">
-							<img src="/image/correios.png" alt="Correios"  height="26" style="border: 0px; height: 26px;">
-						</a>
-
-  					</div>
-  	</div>
 
 </footer>
 

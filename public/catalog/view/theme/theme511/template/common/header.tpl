@@ -137,9 +137,41 @@
 </div>
 
 <header>
+	<?php /*
+    <div class="top-header-1">
+        <div class="pull-left" style="font-size: 14px;">
+            <a href="https://www.facebook.com/profile.php?id=100009830144009&fref=ts" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        </div>
+
+        <div class="pull-left" style="margin-left: 5px;font-size: 14px;">
+            <a href="https://www.instagram.com/loja_doiscoracoes/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+
+        <div class="pull-left" style="margin-left: 5px;font-size: 14px;">
+            <a href="https://br.pinterest.com/2coracoes/" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+        </div>
+
+
+        
+
+        <div class="pull-left" style="margin-left: 25px;">
+            <a href="#">TROCAS E DEVOLUÇÕES COM FRETE GRÁTIS</a>
+        </div>
+        <div class="pull-left" style="margin-left: 25px;">
+            <a href="#">PARCELAMENTO SEM JUROS NO CARTÃO DE CRÉDITO</a>
+        </div>
+        <div class="pull-right" style="margin-left: 25px;">
+            <i class="fa fa-phone"></i> TELEVENDAS: <b><?php echo $telephone; ?></b>
+        </div>
+        <div class="pull-right">
+            <i class="fa fa-whatsapp"></i> WHATSAPP: <b>(11) 94444-4444</b>
+        </div>
+    </div>
+    */ ?>
+
 	<div class="container">
 	<div class="row">
-	<div class="col-sm-12">
+	<div class="col-sm-2" style="">
 		<div id="logo">
 			<?php if ($logo) { ?>
 			<a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
@@ -147,65 +179,27 @@
 			<h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
 			<?php } ?>
 		</div>
-		<div class="box-right">
-			<?php echo $language; ?>
-			<?php echo $currency; ?>
-			<span class="button-top">
+	</div>
+	<div class="col-sm-7" style="margin-top: 30px;">
+		<?php echo $search; ?>
+	</div>
+	<div class="col-sm-2" style="margin-top: 30px;">
+		<i class="fa fa-user" style="font-size: 38px; color: #f68827; padding: 11px 0px 0px 0px;"></i>
+		
+		<div class="topologin">
 			<?php if ($logged) { ?>
-				<a href="<?php echo $logout; ?>"><?php echo $text_logout; ?></a>
-				<a href="<?php echo $order; ?>"><?php echo $text_order; ?></a>
-				<?php } else { ?>
-				<a href="<?php echo $login; ?>"><?php echo $text_login1; ?></a>
-				<a href="<?php echo $register; ?>"><?php echo $text_register1; ?></a>
-				<?php } ?>
-			</span>
-			<div class="clear"></div>
-			<?php echo $search; ?>
-      <div>Atendimento: (11) 3887-9928</div>
-			<?php /* <ul class="soc-icon">
-				<li><a href="//www.facebook.com/"><i class="fa fa-facebook-square"></i></a></li>
-				<li><a href="//www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="//www.pinterest.com/"><i class="fa fa-pinterest"></i></a></li>
-			</ul> */ ?>
+			<a href="<?php echo $logout; ?>"><?php echo $text_logout; ?></a>
+			<a href="<?php echo $order; ?>"><?php echo $text_order; ?></a>
+			<?php } else { ?>
+			Faça seu <a href="<?php echo $login; ?>"><?php echo $text_login1; ?></a><br>
+			Ou <a href="<?php echo $register; ?>"><?php echo $text_register1; ?></a>
+			<?php } ?>
 		</div>
-		</div>
-
-<?php /* *** AREA DE CONTA
-		<?php if ($column_left && $column_right) { ?>
-		<div class="col-sm-3"></div><div class="col-sm-6">
-		<?php } elseif (!$column_left && $column_right) { ?>
-		<div class="col-sm-9">
-		<?php } elseif ($column_left && !$column_right) { ?>
-		<div class="col-sm-3"></div><div class="col-sm-9">
-		<?php } else { ?>
-		<div class="col-sm-12">
-		<?php } ?>
-
+		
+	</div>
+	<div class="col-sm-1" style="margin-top: 30px;">
 		<?php echo $cart; ?>
-		<nav id="top">
-			<div id="top-links" class="nav pull-left">
-			<ul class="list-inline">
-				<li class="first"><a href="<?php echo $home; ?>" title="<?php echo $text_home; ?>"><i class="fa fa-home"></i></a></li>
-				<li><a href="<?php echo $wishlist; ?>" id="wishlist-total" title="<?php echo $text_wishlist; ?>"><i class="fa fa-angle-right"></i><i class="fa fa-heart hidden-lg hidden-md"></i><span class="hidden-sm"><?php echo $text_wishlist; ?></span></a></li>
-				<li><a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>"><i class="fa fa-angle-right"></i><i class="fa fa-user hidden-lg hidden-md"></i><span class="hidden-sm"><?php echo $text_account; ?></span></a></li>
-				<li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-angle-right"></i><i class="fa fa-shopping-cart hidden-lg hidden-md"></i><span class="hidden-sm"><?php echo $text_shopping_cart; ?></span></a></li>
-				<li><a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>"><i class="fa fa-angle-right"></i><i class="fa fa-share hidden-lg hidden-md"></i><span class="hidden-sm"><?php echo $text_checkout; ?></span></a></li>
-			</ul>
-			</div>
-		</nav>
-		</div>
-*/ ?>
-
-
-
-
 	</div>
-	</div>
-
-		<?php if (!$column_left && $column_right) { ?>
-		<div class="col-sm-3"></div>
-		<?php } ?>
-
 </header>
 
 <style>
@@ -222,37 +216,8 @@
 #column-left .category {
 	padding-top: 90px;
 }
-.category .box-heading {
-	display: none;
-}
-</style>
 
-<div class="container header-bottom">
-	<div class="header-bottom-item">
-		<i style="font-size: 36px; float: left; position: absolute; margin-top: 2.5px;" class="fa fa-credit-card" aria-hidden="true"></i>
-		<div style="float: left; min-height: 60px; margin-left: 50px; width: 74px; text-align: center; font-size: 44px; font-weight: bold; padding-top: 8px;">10x</div>
-		<div style="float: left; min-width: 120px; margin-left: 10px; font-weight: bold;">Sem Juros</div>
-		<div style="float: left; min-width: 120px; margin-left: 10px; ">No cartão</div>
-	</div>
-	<div class="header-bottom-item">
-		<i style="font-size: 36px; float: left; position: absolute; margin-top: 2.5px;" class="fa fa-barcode" aria-hidden="true"></i>
-		<div style="float: left; min-height: 60px; margin-left: 50px; width: 74px; text-align: center; font-size: 44px; font-weight: bold; padding-top: 8px;">5%</div>
-		<div style="float: left; min-width: 120px; margin-left: 10px; font-weight: bold;">De Desconto</div>
-		<div style="float: left; min-width: 120px; margin-left: 10px; ">No boleto</div>
-	</div>
-	<div class="header-bottom-item">
-		<i style="font-size: 36px; float: left; position: absolute; margin-top: 2.5px;" class="fa fa-usd" aria-hidden="true"></i>
-		<div style="float: left; min-height: 60px; margin-left: 50px; width: 55px; text-align: center; font-weight: bold;">FRETE GRÁTIS</div>
-		<div style="float: left; min-width: 120px; margin-left: 10px; ">Nas compras acima</div>
-		<div style="float: left; min-width: 120px; margin-left: 10px; font-weight: bold;">de R$ 129,90</div>
-	</div>
-	<div class="header-bottom-item">
-		<i style="font-size: 36px; float: left; position: absolute; margin-top: 2.5px;" class="fa fa-truck" aria-hidden="true"></i>
-		<div style="float: left; min-height: 60px; margin-left: 50px; width: 55px; text-align: center; font-weight: bold;">FRETE GRÁTIS</div>
-		<div style="float: left; min-width: 120px; margin-left: 10px; ">Nas compras acima</div>
-		<div style="float: left; min-width: 120px; margin-left: 10px; font-weight: bold;">de R$ 129,90</div>
-	</div>
-</div>
+</style>
 
 <?php if ($categories) { ?>
 <div class="container">

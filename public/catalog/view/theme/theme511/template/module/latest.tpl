@@ -79,7 +79,7 @@ jQuery(document).ready(function(){
 						</div>
 					</div>
 				</div>
-					<div class="new_pr"><?php echo $text_new; ?></div>
+					<div class="new_pr">Novo</div>
 					<div class="image">
 						<a href="<?php echo $product['href']; ?>">
 							<img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-responsive" />

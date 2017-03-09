@@ -79,7 +79,7 @@ jQuery(document).ready(function(){
 					</div>
 				</div>
 					<?php if ($product['special']) { ?>
-						<div class="sale"><?php echo $text_sale; ?></div>
+						<div class="sale">Oferta</div>
 					<?php } ?>
 					<div class="image">
 						<a href="<?php echo $product['href']; ?>">

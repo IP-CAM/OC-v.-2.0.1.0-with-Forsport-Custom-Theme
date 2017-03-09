@@ -1,0 +1,15 @@
+[09-Mar-2017 10:17:28 America/Sao_Paulo] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '172.17.0.1' (111) in /var/www/html/public/system/library/db/mysqli.php on line 7
+[09-Mar-2017 10:17:28 America/Sao_Paulo] PHP Notice:  Error: Could not make a database link (2003) Can't connect to MySQL server on '172.17.0.1' (111) in /var/www/html/public/system/library/db/mysqli.php on line 10
+[09-Mar-2017 10:17:28 America/Sao_Paulo] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /var/www/html/public/system/library/db/mysqli.php on line 13
+[09-Mar-2017 10:17:28 America/Sao_Paulo] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /var/www/html/public/system/library/db/mysqli.php on line 14
+[09-Mar-2017 10:17:28 America/Sao_Paulo] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /var/www/html/public/system/library/db/mysqli.php on line 45
+[09-Mar-2017 10:17:28 America/Sao_Paulo] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /var/www/html/public/system/library/db/mysqli.php on line 18
+[09-Mar-2017 10:17:28 America/Sao_Paulo] PHP Warning:  DB\MySQLi::query(): Couldn't fetch mysqli in /var/www/html/public/system/library/db/mysqli.php on line 20
+[09-Mar-2017 10:17:28 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /var/www/html/public/index.php on line 41
+[09-Mar-2017 10:17:28 America/Sao_Paulo] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /var/www/html/public/system/library/db/mysqli.php on line 18
+[09-Mar-2017 10:17:28 America/Sao_Paulo] PHP Warning:  DB\MySQLi::query(): Couldn't fetch mysqli in /var/www/html/public/system/library/db/mysqli.php on line 20
+[09-Mar-2017 10:17:28 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /var/www/html/public/index.php on line 50
+[09-Mar-2017 10:17:28 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/public/index.php on line 50
+[09-Mar-2017 10:17:28 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /var/www/html/public/index.php on line 58
+[09-Mar-2017 10:17:28 America/Sao_Paulo] PHP Warning:  fopen(/var/www/html/public/system/logs/): failed to open stream: Is a directory in /var/www/html/public/system/library/log.php on line 6
+[09-Mar-2017 10:17:29 America/Sao_Paulo] PHP Fatal error:  Call to a member function get() on null in /var/www/html/public/index.php on line 97

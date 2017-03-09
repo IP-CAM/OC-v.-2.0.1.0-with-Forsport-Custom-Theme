@@ -624,7 +624,8 @@ function getChar(event) {
 					<!--$('html, body').animate({ scrollTop: 0 }, 'slow');-->
 
 					$('#cart').load('index.php?route=common/cart/info #cart');
-					setTimeout(function() {$('.alert').fadeOut(1000)},3000)
+					setTimeout(function() {$('.alert').fadeOut(1000)},3000);
+					parent.location = 'index.php?route=checkout/cart';
 				}
 			}
 		});

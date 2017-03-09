@@ -166,11 +166,11 @@ div.required .control-label:before {
 }
 /* logo */
 #logo {
-	margin: 9px 0;
-	float: left;
-	max-width: 150px;
-	z-index: 10 !important;
-	position: absolute;
+    margin: 15px 0;
+    float: left;
+    max-width: 130px;
+    z-index: 10 !important;
+    position: absolute;
 }
 /* phone  */
 .phone {
@@ -370,7 +370,7 @@ ul.soc-icon li i {
 	max-width:50px
 }
 #cart .dropdown-menu {
-	min-width: 260px;
+	min-width: 450px;
 }
 #cart .dropdown-menu .total {
 	padding-top:5px;

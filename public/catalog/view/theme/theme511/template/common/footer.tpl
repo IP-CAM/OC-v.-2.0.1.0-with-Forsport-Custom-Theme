@@ -51,11 +51,11 @@
 		</div>
 	</div>
 	<div class="row" style="border-top: solid 1px #EEE; font-size: 12px; padding-top: 10px; padding-bottom: 15px;">
-		<div class="col-sm-6">
+		<div class="col-sm-8">
 			Formas de pagamento:
 			<img src="/image/catalog/pagseguro.png">
 		</div>
-		<div class="col-sm-6" style="text-align: right; font-size: 12px; margin-top: 15px;">
+		<div class="col-sm-4" style="text-align: right; font-size: 12px; margin-top: 15px;">
 			For Sport Artigos Esportivos Ltda<br>
 			CNPJ: 00.029.815/0001-01<br>
 			R. Viêira Maciel, 19 - Jardim Paulista, São Paulo - SP, 04503-040<br>

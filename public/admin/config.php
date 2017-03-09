@@ -1,11 +1,11 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://forsport.homolog.lojavirtual.digital/admin/');
-define('HTTP_CATALOG', 'http://forsport.homolog.lojavirtual.digital/');
+define('HTTP_SERVER', 'http://'.$_SERVER["HTTP_HOST"].'/admin/');
+define('HTTP_CATALOG', 'http://'.$_SERVER["HTTP_HOST"].'/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://forsport.homolog.lojavirtual.digital/admin/');
-define('HTTPS_CATALOG', 'http://forsport.homolog.lojavirtual.digital/');
+define('HTTPS_SERVER', 'http://'.$_SERVER["HTTP_HOST"].'/admin/');
+define('HTTPS_CATALOG', 'http://'.$_SERVER["HTTP_HOST"].'/');
 
 // DIR
 define('DIR_APPLICATION', '/var/www/html/public/admin/');
@@ -24,8 +24,8 @@ define('DIR_CATALOG', '/var/www/html/public/catalog/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', '172.17.0.1');
-define('DB_USERNAME', 'forsport');
-define('DB_PASSWORD', 'nqwhuf7w36d');
+define('DB_HOSTNAME', '192.168.1.36');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', 'root');
 define('DB_DATABASE', 'forsport');
 define('DB_PREFIX', 'oc_');

@@ -29,11 +29,16 @@
 	<button type="button" class="close" data-dismiss="alert">&times;</button>
   </div>
   <?php } ?><?php echo $content_top; ?>
+	  <div class="col-sm-8">
 	  <h1><?php echo $heading_title; ?>
 		<?php if ($weight) { ?>
 		&nbsp;(<?php echo $weight; ?>)
 		<?php } ?>
 	  </h1>
+	  </div>
+	  <div class="col-sm-4">
+		<div class="pull-right"><a href="/" class="btn btn-primary">Escolher mais produtos</a></div>
+	  </div>
 	  <form class="shoping_cart" action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
 		<div class="table-responsive">
 		  <table class="table table-bordered">

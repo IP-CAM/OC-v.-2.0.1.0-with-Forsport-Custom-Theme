@@ -1,30 +1,31 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://forsport.lojavirtual.local/admin/');
-define('HTTP_CATALOG', 'http://forsport.lojavirtual.local/');
+define('HTTP_SERVER', 'http://forsport.homolog.lojavirtual.digital/admin/');
+define('HTTP_CATALOG', 'http://forsport.homolog.lojavirtual.digital/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://forsport.lojavirtual.local/admin/');
-define('HTTPS_CATALOG', 'http://forsport.lojavirtual.local/');
+define('HTTPS_SERVER', 'http://forsport.homolog.lojavirtual.digital/admin/');
+define('HTTPS_CATALOG', 'http://forsport.homolog.lojavirtual.digital/');
 
 // DIR
-define('DIR_APPLICATION', '/Users/fernandomendes/github/forsport/public/admin/');
-define('DIR_SYSTEM', '/Users/fernandomendes/github/forsport/public/system/');
-define('DIR_LANGUAGE', '/Users/fernandomendes/github/forsport/public/admin/language/');
-define('DIR_TEMPLATE', '/Users/fernandomendes/github/forsport/public/admin/view/template/');
-define('DIR_CONFIG', '/Users/fernandomendes/github/forsport/public/system/config/');
-define('DIR_IMAGE', '/Users/fernandomendes/github/forsport/public/image/');
-define('DIR_CACHE', '/Users/fernandomendes/github/forsport/public/system/cache/');
-define('DIR_DOWNLOAD', '/Users/fernandomendes/github/forsport/public/system/download/');
-define('DIR_UPLOAD', '/Users/fernandomendes/github/forsport/public/system/upload/');
-define('DIR_LOGS', '/Users/fernandomendes/github/forsport/public/system/logs/');
-define('DIR_MODIFICATION', '/Users/fernandomendes/github/forsport/public/system/modification/');
-define('DIR_CATALOG', '/Users/fernandomendes/github/forsport/public/catalog/');
+define('DIR_APPLICATION', '/var/www/html/public/admin/');
+define('DIR_SYSTEM', '/var/www/html/public/system/');
+define('DIR_DATABASE', '/var/www/html/public/system/database/');
+define('DIR_LANGUAGE', '/var/www/html/public/admin/language/');
+define('DIR_TEMPLATE', '/var/www/html/public/admin/view/template/');
+define('DIR_CONFIG', '/var/www/html/public/system/config/');
+define('DIR_IMAGE', '/var/www/html/public/image/');
+define('DIR_CACHE', '/var/www/html/public/system/cache/');
+define('DIR_DOWNLOAD', '/var/www/html/public/download/');
+define('DIR_UPLOAD', '/var/www/html/public/system/upload/');
+define('DIR_LOGS', '/var/www/html/public/system/logs/');
+define('DIR_MODIFICATION', '/var/www/html/public/system/modification/');
+define('DIR_CATALOG', '/var/www/html/public/catalog/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'root');
+define('DB_HOSTNAME', '172.17.0.1');
+define('DB_USERNAME', 'forsport');
+define('DB_PASSWORD', 'nqwhuf7w36d');
 define('DB_DATABASE', 'forsport');
 define('DB_PREFIX', 'oc_');
